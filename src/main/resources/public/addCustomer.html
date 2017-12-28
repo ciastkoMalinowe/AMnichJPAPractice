@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+</head>
+<body>
+<h2>Customer</h2>
+<hr>
+<div style="display:block">
+    <form method="post" action="/api/customer" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td><label for="company">Company:</label></td>
+                <td><input type="text" id="company" name="company"/></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td><input type="text" id="city" name="city"/></td>
+            </tr>
+            <tr>
+                <td><label for="street">Street:</label></td>
+                <td><input type="text" id="street" name="street"/></td>
+            </tr>
+            <tr>
+                <td><label for="zip">ZipCode:</label></td>
+                <td><input type="text" id="zip" name="zip"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;">
+                    <input type="submit" value="Save"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
